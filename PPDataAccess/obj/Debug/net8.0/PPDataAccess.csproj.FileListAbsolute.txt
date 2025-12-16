@@ -1,0 +1,14 @@
+D:\Workspace\PPWeb\PPDataAccess\bin\Debug\net8.0\PPDataAccess.deps.json
+D:\Workspace\PPWeb\PPDataAccess\bin\Debug\net8.0\PPDataAccess.runtimeconfig.json
+D:\Workspace\PPWeb\PPDataAccess\bin\Debug\net8.0\PPDataAccess.dll
+D:\Workspace\PPWeb\PPDataAccess\bin\Debug\net8.0\PPDataAccess.pdb
+D:\Workspace\PPWeb\PPDataAccess\obj\Debug\net8.0\PPDataAccess.csproj.AssemblyReference.cache
+D:\Workspace\PPWeb\PPDataAccess\obj\Debug\net8.0\PPDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\PPWeb\PPDataAccess\obj\Debug\net8.0\PPDataAccess.AssemblyInfoInputs.cache
+D:\Workspace\PPWeb\PPDataAccess\obj\Debug\net8.0\PPDataAccess.AssemblyInfo.cs
+D:\Workspace\PPWeb\PPDataAccess\obj\Debug\net8.0\PPDataAccess.csproj.CoreCompileInputs.cache
+D:\Workspace\PPWeb\PPDataAccess\obj\Debug\net8.0\PPDataAccess.dll
+D:\Workspace\PPWeb\PPDataAccess\obj\Debug\net8.0\refint\PPDataAccess.dll
+D:\Workspace\PPWeb\PPDataAccess\obj\Debug\net8.0\PPDataAccess.pdb
+D:\Workspace\PPWeb\PPDataAccess\obj\Debug\net8.0\PPDataAccess.genruntimeconfig.cache
+D:\Workspace\PPWeb\PPDataAccess\obj\Debug\net8.0\ref\PPDataAccess.dll
