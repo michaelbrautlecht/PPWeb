@@ -1,0 +1,12 @@
+D:\Workspace\PPWeb\PPData\bin\Debug\net8.0\PPData.deps.json
+D:\Workspace\PPWeb\PPData\bin\Debug\net8.0\PPData.dll
+D:\Workspace\PPWeb\PPData\bin\Debug\net8.0\PPData.pdb
+D:\Workspace\PPWeb\PPData\obj\Debug\net8.0\PPData.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\PPWeb\PPData\obj\Debug\net8.0\PPData.AssemblyInfoInputs.cache
+D:\Workspace\PPWeb\PPData\obj\Debug\net8.0\PPData.AssemblyInfo.cs
+D:\Workspace\PPWeb\PPData\obj\Debug\net8.0\PPData.csproj.CoreCompileInputs.cache
+D:\Workspace\PPWeb\PPData\obj\Debug\net8.0\PPData.sourcelink.json
+D:\Workspace\PPWeb\PPData\obj\Debug\net8.0\PPData.dll
+D:\Workspace\PPWeb\PPData\obj\Debug\net8.0\refint\PPData.dll
+D:\Workspace\PPWeb\PPData\obj\Debug\net8.0\PPData.pdb
+D:\Workspace\PPWeb\PPData\obj\Debug\net8.0\ref\PPData.dll

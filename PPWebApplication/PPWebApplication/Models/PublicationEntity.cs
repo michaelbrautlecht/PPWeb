@@ -13,7 +13,7 @@ namespace PPWebApplication.Models
 
         [Required]
         [MaxLength(80)]
-        public string PubName { get; set; }
+        public string PubName { get; set; } = string.Empty;
 
         public int PubYear { get; set; }
 
