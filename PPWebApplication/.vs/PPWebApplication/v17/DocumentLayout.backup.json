@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|solutionrelative:ppwebapplication\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\Migrations\\20251215130350_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PPWebApplication\\Migrations\\20251215130350_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|d:\\workspace\\ppweb\\ppwebapplication\\ppwebapplication\\models\\publicationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|solutionrelative:ppwebapplication\\models\\publicationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|d:\\workspace\\ppweb\\ppwebapplication\\ppwebapplication\\ppwebapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|solutionrelative:ppwebapplication\\ppwebapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|d:\\workspace\\ppweb\\ppwebapplication\\ppwebapplication\\migrations\\20251215130350_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|solutionrelative:ppwebapplication\\migrations\\20251215130350_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "20251215130350_InitialCreate.cs",
               "DocumentMoniker": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\Migrations\\20251215130350_InitialCreate.cs",
               "RelativeDocumentMoniker": "PPWebApplication\\Migrations\\20251215130350_InitialCreate.cs",
@@ -60,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "PublicationEntity.cs",
               "DocumentMoniker": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\Models\\PublicationEntity.cs",
               "RelativeDocumentMoniker": "PPWebApplication\\Models\\PublicationEntity.cs",
@@ -79,20 +79,20 @@
               "RelativeDocumentMoniker": "PPWebApplication\\Program.cs",
               "ToolTip": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\Program.cs",
               "RelativeToolTip": "PPWebApplication\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T12:32:30.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "PPWebApplication.csproj",
               "DocumentMoniker": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\PPWebApplication.csproj",
               "RelativeDocumentMoniker": "PPWebApplication\\PPWebApplication.csproj",
-              "ToolTip": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\PPWebApplication.csproj",
-              "RelativeToolTip": "PPWebApplication\\PPWebApplication.csproj",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\PPWebApplication.csproj*",
+              "RelativeToolTip": "PPWebApplication\\PPWebApplication.csproj*",
+              "ViewState": "AgIAABEAAAAAAAAAAIBJwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-12-15T12:10:25.648Z",
               "EditorCaption": ""
