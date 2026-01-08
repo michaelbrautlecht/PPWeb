@@ -5,5 +5,6 @@ namespace PPWebApplication.Data
 {
     public sealed class PPAppUser : IdentityUser
     {
+
     }
 }

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PPWebApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b806f2597ee839542164d69cc2eefe14e2df2a23")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+010d4d9ba8e0d2fc26c70bf04e587abcdd1764b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PPWebApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PPWebApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

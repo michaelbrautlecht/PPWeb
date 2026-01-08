@@ -12,11 +12,16 @@ builder.Services.AddRazorComponents()
 builder.Services.AddDbContext<PPWebApplication.Data.AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("PPWebConnection")));
 
+builder.Services.AddIdentity<PPAppUser, IdentityRole>()
+    .AddEntityFrameworkStores<AppDbContext>();
+
+/*
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
 })
     .AddEntityFrameworkStores<AppDbContext>();
+*/
 
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();

@@ -20,7 +20,7 @@ namespace PPWebApplication.Data
         {
             base.OnModelCreating(builder);
 
-            builder.HasDefaultSchema("ppweb");
+            //builder.HasDefaultSchema("ppweb");
         }
 
         public DbSet<Models.PublicationEntity> Publications { get; set; }
