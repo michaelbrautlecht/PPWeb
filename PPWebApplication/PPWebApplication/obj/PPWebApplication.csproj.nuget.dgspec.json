@@ -10,14 +10,14 @@
         "projectUniqueName": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\PPWebApplication.csproj",
         "projectName": "PPWebApplication",
         "projectPath": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\PPWebApplication.csproj",
-        "packagesPath": "D:\\Profiles\\brautlecht.WEROCA\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
         "outputPath": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "D:\\Profiles\\brautlecht.WEROCA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

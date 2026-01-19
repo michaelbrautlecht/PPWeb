@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\Workspace\\PPWeb\\PPWebApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|d:\\workspace\\ppweb\\ppwebapplication\\ppwebapplication\\features\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|solutionrelative:ppwebapplication\\features\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|d:\\workspace\\ppweb\\ppwebapplication\\ppwebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|solutionrelative:ppwebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|d:\\workspace\\ppweb\\ppwebapplication\\ppwebapplication\\data\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|solutionrelative:ppwebapplication\\data\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|d:\\workspace\\ppweb\\ppwebapplication\\ppwebapplication\\data\\ppappuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|solutionrelative:ppwebapplication\\data\\ppappuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|d:\\workspace\\ppweb\\ppwebapplication\\ppwebapplication\\migrations\\20260108123442_create_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|solutionrelative:ppwebapplication\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|d:\\workspace\\ppweb\\ppwebapplication\\ppwebapplication\\data\\ppappuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|solutionrelative:ppwebapplication\\data\\ppappuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|d:\\workspace\\ppweb\\ppwebapplication\\ppwebapplication\\models\\publicationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CBCAF0E-91F7-4EC8-B7E7-7BC9E305092A}|PPWebApplication\\PPWebApplication.csproj|solutionrelative:ppwebapplication\\models\\publicationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "PPWebApplication\\Data\\AppDbContext.cs",
@@ -63,7 +67,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "RegisterUser.cs",
+              "DocumentMoniker": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\Features\\RegisterUser.cs",
+              "RelativeDocumentMoniker": "PPWebApplication\\Features\\RegisterUser.cs",
+              "ToolTip": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\Features\\RegisterUser.cs",
+              "RelativeToolTip": "PPWebApplication\\Features\\RegisterUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T15:54:39.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Roles.cs",
               "DocumentMoniker": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\Data\\Roles.cs",
               "RelativeDocumentMoniker": "PPWebApplication\\Data\\Roles.cs",
@@ -75,12 +96,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "20260108123442_Create_Database.cs",
               "DocumentMoniker": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\Migrations\\20260108123442_Create_Database.cs",
               "RelativeDocumentMoniker": "PPWebApplication\\Migrations\\20260108123442_Create_Database.cs",
@@ -88,12 +105,11 @@
               "RelativeToolTip": "PPWebApplication\\Migrations\\20260108123442_Create_Database.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T12:34:42.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T12:34:42.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\appsettings.json",
               "RelativeDocumentMoniker": "PPWebApplication\\appsettings.json",
@@ -105,19 +121,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "PPAppUser.cs",
               "DocumentMoniker": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\Data\\PPAppUser.cs",
               "RelativeDocumentMoniker": "PPWebApplication\\Data\\PPAppUser.cs",
               "ToolTip": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\Data\\PPAppUser.cs",
               "RelativeToolTip": "PPWebApplication\\Data\\PPAppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T15:19:01.989Z"
+              "WhenOpened": "2026-01-05T15:19:01.989Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "20251215130350_InitialCreate.cs",
               "DocumentMoniker": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\Migrations\\20251215130350_InitialCreate.cs",
               "RelativeDocumentMoniker": "PPWebApplication\\Migrations\\20251215130350_InitialCreate.cs",
@@ -125,12 +142,11 @@
               "RelativeToolTip": "PPWebApplication\\Migrations\\20251215130350_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T13:03:50.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T13:03:50.896Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PublicationEntity.cs",
               "DocumentMoniker": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\Models\\PublicationEntity.cs",
               "RelativeDocumentMoniker": "PPWebApplication\\Models\\PublicationEntity.cs",
@@ -142,20 +158,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\Program.cs",
               "RelativeDocumentMoniker": "PPWebApplication\\Program.cs",
               "ToolTip": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\Program.cs",
               "RelativeToolTip": "PPWebApplication\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAACoAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAADQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T12:32:30.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "PPWebApplication.csproj",
               "DocumentMoniker": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\PPWebApplication.csproj",
               "RelativeDocumentMoniker": "PPWebApplication\\PPWebApplication.csproj",

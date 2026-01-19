@@ -29,7 +29,7 @@ builder.Services.AddRazorComponents()
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
@@ -38,6 +38,16 @@ if (!app.Environment.IsDevelopment())
     using var scope = app.Services.CreateScope();
     var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     dbContext.Database.Migrate();
+
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+    if (!await roleManager.RoleExistsAsync(Roles.PPAdmin))
+    {
+        await roleManager.CreateAsync(new IdentityRole(Roles.PPAdmin));
+    }
+    if (!await roleManager.RoleExistsAsync(Roles.PPUser))
+    {
+        await roleManager.CreateAsync(new IdentityRole(Roles.PPUser));
+    }
 }
 
 app.UseHttpsRedirection();
