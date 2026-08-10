@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\PPWebApplication.csproj": {}
+    "D:\\Workspace\\PPWeb\\PPModel\\PPModel\\PPModel.csproj": {}
   },
   "projects": {
-    "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\PPWebApplication.csproj": {
+    "D:\\Workspace\\PPWeb\\PPModel\\PPModel\\PPModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\PPWebApplication.csproj",
-        "projectName": "PPWebApplication",
-        "projectPath": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\PPWebApplication.csproj",
+        "projectUniqueName": "D:\\Workspace\\PPWeb\\PPModel\\PPModel\\PPModel.csproj",
+        "projectName": "PPModel",
+        "projectPath": "D:\\Workspace\\PPWeb\\PPModel\\PPModel\\PPModel.csproj",
         "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
-        "outputPath": "D:\\Workspace\\PPWeb\\PPWebApplication\\PPWebApplication\\obj\\",
+        "outputPath": "D:\\Workspace\\PPWeb\\PPModel\\PPModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,30 +49,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.22, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[8.0.22, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.22, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.22, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.22, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -85,14 +61,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.315/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Workspace\\PPWeb\\PPModel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{307169CA-1538-4322-9524-7B8B7647B8CE}|PPModel\\PPModel.csproj|d:\\workspace\\ppweb\\ppmodel\\ppmodel\\industrycosttyperelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307169CA-1538-4322-9524-7B8B7647B8CE}|PPModel\\PPModel.csproj|solutionrelative:ppmodel\\industrycosttyperelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307169CA-1538-4322-9524-7B8B7647B8CE}|PPModel\\PPModel.csproj|d:\\workspace\\ppweb\\ppmodel\\ppmodel\\costtypeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307169CA-1538-4322-9524-7B8B7647B8CE}|PPModel\\PPModel.csproj|solutionrelative:ppmodel\\costtypeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307169CA-1538-4322-9524-7B8B7647B8CE}|PPModel\\PPModel.csproj|d:\\workspace\\ppweb\\ppmodel\\ppmodel\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307169CA-1538-4322-9524-7B8B7647B8CE}|PPModel\\PPModel.csproj|solutionrelative:ppmodel\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307169CA-1538-4322-9524-7B8B7647B8CE}|PPModel\\PPModel.csproj|d:\\workspace\\ppweb\\ppmodel\\ppmodel\\customerindustryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307169CA-1538-4322-9524-7B8B7647B8CE}|PPModel\\PPModel.csproj|solutionrelative:ppmodel\\customerindustryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307169CA-1538-4322-9524-7B8B7647B8CE}|PPModel\\PPModel.csproj|d:\\workspace\\ppweb\\ppmodel\\ppmodel\\industryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307169CA-1538-4322-9524-7B8B7647B8CE}|PPModel\\PPModel.csproj|solutionrelative:ppmodel\\industryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307169CA-1538-4322-9524-7B8B7647B8CE}|PPModel\\PPModel.csproj|d:\\workspace\\ppweb\\ppmodel\\ppmodel\\publicationitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307169CA-1538-4322-9524-7B8B7647B8CE}|PPModel\\PPModel.csproj|solutionrelative:ppmodel\\publicationitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IndustryCostTypeRelation.cs",
+              "DocumentMoniker": "D:\\Workspace\\PPWeb\\PPModel\\PPModel\\IndustryCostTypeRelation.cs",
+              "RelativeDocumentMoniker": "PPModel\\IndustryCostTypeRelation.cs",
+              "ToolTip": "D:\\Workspace\\PPWeb\\PPModel\\PPModel\\IndustryCostTypeRelation.cs",
+              "RelativeToolTip": "PPModel\\IndustryCostTypeRelation.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwCUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T08:12:50.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerIndustryItem.cs",
+              "DocumentMoniker": "D:\\Workspace\\PPWeb\\PPModel\\PPModel\\CustomerIndustryItem.cs",
+              "RelativeDocumentMoniker": "PPModel\\CustomerIndustryItem.cs",
+              "ToolTip": "D:\\Workspace\\PPWeb\\PPModel\\PPModel\\CustomerIndustryItem.cs",
+              "RelativeToolTip": "PPModel\\CustomerIndustryItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T07:27:39.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Workspace\\PPWeb\\PPModel\\PPModel\\Customer.cs",
+              "RelativeDocumentMoniker": "PPModel\\Customer.cs",
+              "ToolTip": "D:\\Workspace\\PPWeb\\PPModel\\PPModel\\Customer.cs",
+              "RelativeToolTip": "PPModel\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T07:23:39.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IndustryItem.cs",
+              "DocumentMoniker": "D:\\Workspace\\PPWeb\\PPModel\\PPModel\\IndustryItem.cs",
+              "RelativeDocumentMoniker": "PPModel\\IndustryItem.cs",
+              "ToolTip": "D:\\Workspace\\PPWeb\\PPModel\\PPModel\\IndustryItem.cs",
+              "RelativeToolTip": "PPModel\\IndustryItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T07:11:23.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PublicationItem.cs",
+              "DocumentMoniker": "D:\\Workspace\\PPWeb\\PPModel\\PPModel\\PublicationItem.cs",
+              "RelativeDocumentMoniker": "PPModel\\PublicationItem.cs",
+              "ToolTip": "D:\\Workspace\\PPWeb\\PPModel\\PPModel\\PublicationItem.cs",
+              "RelativeToolTip": "PPModel\\PublicationItem.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T06:52:40.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CostTypeItem.cs",
+              "DocumentMoniker": "D:\\Workspace\\PPWeb\\PPModel\\PPModel\\CostTypeItem.cs",
+              "RelativeDocumentMoniker": "PPModel\\CostTypeItem.cs",
+              "ToolTip": "D:\\Workspace\\PPWeb\\PPModel\\PPModel\\CostTypeItem.cs",
+              "RelativeToolTip": "PPModel\\CostTypeItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T05:57:35.731Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
