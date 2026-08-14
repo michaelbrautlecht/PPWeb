@@ -33,7 +33,19 @@ namespace PPModel
         }
 
         public decimal PercentageShare { get; set; }
-        public decimal CustomerPercentageShare { get; set; }
+        
+        private decimal _customerPercentageShare;
+        public decimal CustomerPercentageShare { 
+            get { return _customerPercentageShare; }
+            set { 
+                _customerPercentageShare = value; 
+
+                if(_parentitem != null)
+                {
+                    _parentitem.CustomerPercentageShare = _parentitem._childitems.Sum(x => x.CustomerPercentageShare);
+                }
+            } 
+        }
 
         public decimal PriceIndexChange { get; private set; }
         public decimal PriceIndexCustomerChange { get; private set; }
@@ -50,7 +62,6 @@ namespace PPModel
                     _piFrom += item.FromPublication.PriceIndex * item.PercentageShare / 100;
                     _piTo += item.ToPublication.PriceIndex * item.PercentageShare / 100;
                 }
-
 
                 PriceIndexChange = (_piTo - _piFrom) * 100 / _piTo;
 

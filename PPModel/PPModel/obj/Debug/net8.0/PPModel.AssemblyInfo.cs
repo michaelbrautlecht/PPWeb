@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PPModel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ec187aadec62abfd7c3bfd7f709447f5baee2ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ccc20ee7c1ff23c783c2c8ef347cd6cef605eb7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("PPModel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PPModel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
