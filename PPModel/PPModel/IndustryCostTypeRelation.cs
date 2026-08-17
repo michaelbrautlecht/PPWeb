@@ -9,7 +9,7 @@ namespace PPModel
     public class IndustryCostTypeRelation
     {
         public IndustryItem Industry { get; set; }
-        public Customer Customer { get; set; }
+        public CustomerItem Customer { get; set; }
         public CostTypePublicationItem FromPublication { get; set; }
         public CostTypePublicationItem ToPublication { get; set; }
 
@@ -25,15 +25,27 @@ namespace PPModel
             }
         }
 
+        public int? ParentId { get; private set; }
         private IndustryCostTypeRelation _parentitem;
         public IndustryCostTypeRelation ParentItem
         {
             get { return _parentitem; }
-            set { _parentitem = value; }
+            set { 
+                _parentitem = value;
+                _parentitem.UpdatePriceIndex();
+            }
         }
 
-        public decimal PercentageShare { get; set; }
-        public decimal CustomerPercentageShare { get; set; }
+        public decimal PercentageShare { get; private set; }
+
+        private decimal _CustomerPercentageShare;
+        public decimal CustomerPercentageShare {
+            get { return _CustomerPercentageShare;  } 
+            set { 
+                _CustomerPercentageShare = value;
+                _parentitem?.UpdatePriceIndex();
+            } 
+        }
 
         public decimal PriceIndexChange { get; private set; }
         public decimal PriceIndexCustomerChange { get; private set; }
@@ -93,6 +105,46 @@ namespace PPModel
                 result = (ToPublication.PriceIndex - FromPublication.PriceIndex) * 100 / ToPublication.PriceIndex * CustomerPercentageShare;
 
                 return result;
+            }
+
+        }
+
+        public void Init(int iCostTypeId, string sCostTypeCode, string sCostTypeName, CostTypeUsage eCostTypeUsage, int? iParentId, decimal dPercentageShare)
+        {
+            _costtype = new CostTypeItem();
+            _costtype.CostTypeId = iCostTypeId;
+            _costtype.CostTypeCode = sCostTypeCode;
+            _costtype.CostTypeUsage = eCostTypeUsage;
+            _costtype.CostTypeName = sCostTypeName;
+
+            ParentId = iParentId;
+            PercentageShare = dPercentageShare;
+        }
+
+        public void Init(int iCostTypeId, string sCostTypeCode, string sCostTypeName, CostTypeUsage eCostTypeUsage, int? iParentId, decimal dPercentageShare, decimal dCustomerPercentageShare)
+        {
+            Init(iCostTypeId, sCostTypeCode, sCostTypeName, eCostTypeUsage, iParentId, dPercentageShare);
+            CustomerPercentageShare = dCustomerPercentageShare;
+        }
+
+        public void AddPriceIndizies(decimal dPriceIndexFrom, decimal dPriceIndexTo)
+        {
+            PriceIndexChange = 0;
+            PriceIndexCustomerChange = 0;
+
+            if (dPriceIndexFrom != 0)
+            {
+                PriceIndexChange = (dPriceIndexTo - dPriceIndexFrom) * 100 / dPriceIndexFrom;
+                PriceIndexCustomerChange = PriceIndexChange;
+            }
+        }
+
+        public void AddPriceIndizies(decimal dPriceIndexFrom, decimal dPriceIndexTo, decimal dPriceIndexCustomerFrom, decimal dPriceIndexCustomerTo)
+        {
+            AddPriceIndizies(dPriceIndexFrom, dPriceIndexTo);
+            if (dPriceIndexCustomerFrom != 0)
+            {
+                PriceIndexCustomerChange = (dPriceIndexCustomerTo - dPriceIndexCustomerFrom) * 100 / dPriceIndexCustomerFrom;
             }
 
         }

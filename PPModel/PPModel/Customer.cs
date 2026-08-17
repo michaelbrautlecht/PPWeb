@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PPModel
 {
-    public class Customer
+    public class CustomerItem
     {
         public int CustomerId { get; set; }
         public string CustomerName { get; set; }
